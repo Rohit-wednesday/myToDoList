@@ -1,0 +1,45 @@
+.centerBox {
+  display: flex;
+  flex-direction: column;
+  font-size: 22;
+  margin: 0 auto;
+  width: 360;
+  border: 1px solid black;
+}
+.centerBox__shaddowing {
+  text-align : center;
+  font-size: 40;
+  color: rgb(238, 161, 61);
+  text-shadow: 2px 2px rgb(95, 86, 72);
+}
+
+.centerBox__bin {
+  float: right;
+}
+
+.centerBox__tick {
+  display: none;
+}
+
+li {
+  padding-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+button {
+  font-size: 22;
+  border-radius: .25rem;
+  background-color: rgb(243, 243, 243);
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+.centerBox__changeOnClick {
+  font-weight: bold;
+}
